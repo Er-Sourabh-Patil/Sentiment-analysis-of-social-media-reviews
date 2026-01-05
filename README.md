@@ -93,8 +93,15 @@ Performance is measured using:
    ```bash
    git clone https://github.com/Er-Sourabh-Patil/Sentiment-analysis-of-social-media-reviews.git
    cd Sentiment-analysis-of-social-media-reviews
-2. **Create Virtual Environment**
+2. **Create virtual environment**
    ```bash
-  python -m venv venv
-  venv\Scripts\activate.ps1
+   python -m venv venv
+   venv\Scripts\activate.ps1
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
 
+4. **Run the Flask Web Application**
+   ```bash
+   cd flask_app
+   python app.py
